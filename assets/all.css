@@ -113,59 +113,55 @@ li {
 
 
 /*****
-** SENDINBLUE FORM
+** FORM
 *****/
-.pm-error-msg {
-  font-size:16px;
-  text-align:left;
-  font-family: Helvetica, sans-serif;
-  color:#661d1d;
-  background-color:#ffeded;
-  border-radius:3px;
-  border-width:0px; 
-  border-color:#ff4949;
+.indicates-required {
+  display: none;
 }
 
-.pm-inner .sib-form {
-  background: white;
-  padding: 0;
-  max-width: 300px;
+.mc-field-group {
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 49%;
 }
 
-.pm-inner #sib-container {
-  padding: 0;
-  margin: 0;
-  border: 0 !important;
+.mc-field-group label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.pm-inner .sib-form * {
-  padding: 0;
+.mc-field-group input {
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  padding: 10px;
+  width: 95%;
 }
 
-.pm-inner .sib-captcha {
-  margin-top: 15px;
-}
-
-.pm-inner .sib-form-block__button {
+[type="submit"] {
   font: 400 .93rem Open Sans !important;
-  padding: 30px 55px 10px 10px;
+  padding: 30px 55px 15px 15px;
+  margin: 15px 25px 0 0; 
   display: inline-block;
   cursor: pointer;
-  margin: 15px 0 0;
+  background-color: #F9DA17;
+  border: none;
+  float: right;
 }
 
-.pm-inner .sib-form-block__button:hover {
+[type="submit"]:hover {
   background: black !important;
   color: #fff !important;
 }
 
-.pm-inner .form__label-row  {
-  margin-bottom: 15px;
+hr {
+  border:none;
+  background: transparent;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  display: block;
+  margin: 50px 0 30px;
 }
 
-.pm-inner .entry__label {
-  margin: 0;
-  padding: 0;
-  font-size: .94rem !important;
+.pm-title-inscreva {
+  font: bold 2rem/1.1 "EB Garamond", Times, Serif;
+  margin-bottom: 20px;
 }
-
