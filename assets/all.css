@@ -123,6 +123,7 @@ li {
   padding-bottom: 20px;
   display: inline-block;
   width: 49%;
+  float: left;
 }
 
 .mc-field-group label {
@@ -164,4 +165,8 @@ hr {
 .pm-title-inscreva {
   font: bold 2rem/1.1 "EB Garamond", Times, Serif;
   margin-bottom: 20px;
+}
+
+select option {
+  padding: 5px 10px;
 }
