@@ -119,26 +119,28 @@ li {
   display: none;
 }
 
-.mc-field-group {
+#mc_embed_signup form {padding: 0;}
+
+#mc_embed_signup .mc-field-group {
   padding-bottom: 20px;
   display: inline-block;
   width: 49%;
   float: left;
 }
 
-.mc-field-group label {
+#mc_embed_signup .mc-field-group label {
   display: block;
   margin-bottom: 5px;
 }
 
-.mc-field-group input {
+#mc_embed_signup .mc-field-group input {
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, .2);
   padding: 10px;
   width: 95%;
 }
 
-[type="submit"] {
+#mc_embed_signup [type="submit"] {
   font: 400 .93rem Open Sans !important;
   padding: 30px 55px 15px 15px;
   margin: 15px 25px 0 0; 
@@ -149,7 +151,7 @@ li {
   float: right;
 }
 
-[type="submit"]:hover {
+#mc_embed_signup [type="submit"]:hover {
   background: black !important;
   color: #fff !important;
 }
